@@ -28,10 +28,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Exquisitian/CIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+
+  s.source_files = 'CIKit/Source/**/*'
   s.swift_version = '5.1.3'
   s.ios.deployment_target = '13.0'
-
-  s.source_files = 'CIKit/Source/**/*.Swift'
+  s.platforms {
+	  'iOS': '12.0'
+  }
   
   # s.resource_bundles = {
   #   'CIKit' => ['CIKit/Assets/*.png']

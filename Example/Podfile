@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CIKit_Example' do
+  pod 'CIKit', :path => '../'
+
+  target 'CIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

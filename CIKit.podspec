@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CIKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CIKit.'
+  s.summary          = 'CIKit wraps and extends many functionalities of UIKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'CIKit wraps and extends the functionalities of UIKit to faciliate the development process. It condenses many useful and complex funtions into one line of code to make your life easier while increase code readablity.'
                        DESC
 
   s.homepage         = 'https://github.com/Exquisitian/CIKit'

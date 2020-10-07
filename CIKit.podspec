@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'CIKit wraps and extends many functionalities of UIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 
-  s.source_files = 'CIKit/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.1.3'
   s.ios.deployment_target = '13.0'
  

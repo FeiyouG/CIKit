@@ -1,0 +1,16 @@
+PODS:
+  - CIKit (0.1.0)
+
+DEPENDENCIES:
+  - CIKit (from `../`)
+
+EXTERNAL SOURCES:
+  CIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CIKit: e3864a95c4da8e33bfaca1ffe1e9a6bb02876443
+
+PODFILE CHECKSUM: 0c70a5f9bceb906427e7311c880b0e6e9e99d358
+
+COCOAPODS: 1.9.3

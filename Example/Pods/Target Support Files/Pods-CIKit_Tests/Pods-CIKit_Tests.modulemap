@@ -1,0 +1,6 @@
+framework module Pods_CIKit_Tests {
+  umbrella header "Pods-CIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

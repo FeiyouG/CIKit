@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 
-  s.source_files = 'CIKit/Source/**/*'
+  s.source_files = 'CIKit/Classes/**/*'
   s.swift_version = '5.1.3'
   s.ios.deployment_target = '13.0'
  

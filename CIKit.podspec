@@ -24,13 +24,14 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Exquisitian/CIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Exquisitian' => 'Exquisitian@gmail.com' }
+  s.author           = { 'Feiyou Guo' => 'Exquisitian@gmail.com' }
   s.source           = { :git => 'https://github.com/Exquisitian/CIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '5.1.3'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CIKit/Classes/**/*'
+  s.source_files = 'CIKit/Source/**/*.Swift'
   
   # s.resource_bundles = {
   #   'CIKit' => ['CIKit/Assets/*.png']
